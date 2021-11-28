@@ -1,49 +1,44 @@
-# Title (replace with your title)
+# Hex value Regex tutorial
 
-Introductory paragraph (replace this with your text)
+This tutorial is going to explain the use of regex to match hex values using the expression /^#[0-9A-F]+$/
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+What is Regex?
+A regex, which is short for regular expression, is a sequence of characters that defines a specific search pattern.
+When included in code or search algorithms, regular expressions can be used to find certain patterns of characters
+within a string, or to find and replace a character or sequence of characters within a string. They are also frequently
+used to validate input.
 
 ## Table of Contents
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
-- [OR Operator](#or-operator)
-- [Character Classes](#character-classes)
-- [Flags](#flags)
-- [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
-- [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
 
 ### Anchors
 
+- ^ – The caret anchor matches the beginning of the text.
+- $ – The dollar anchor matches the end of the text.
+
 ### Quantifiers
 
-### OR Operator
-
-### Character Classes
-
-### Flags
-
-### Grouping and Capturing
+The "+" determines that there should be at least one matches one or more occurrences of the one-character
+regular expression
 
 ### Bracket Expressions
 
+Bracket expressions for hex value validation includes the character sets of [0-9A-F], which is matching any letter
+a-z and is case senstive. It also matches a character 0-9
+
 ### Greedy and Lazy Match
 
-### Boundaries
-
-### Back-references
-
-### Look-ahead and Look-behind
+This regrex includes greedy matches. Since it includes the "+" Quantifier, it will match as many times as possible
+giving back as needed
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+[Github](https://github.com/luismrosales)
